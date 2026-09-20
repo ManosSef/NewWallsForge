@@ -1,0 +1,90 @@
+package me.manossef.newwalls;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+
+import java.util.function.Supplier;
+
+public class NewWallsItems {
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, NewWalls.MODID);
+    public static final RegistryObject<Item> POLISHED_GRANITE_BRICKS = registerItem("polished_granite_bricks", NewWallsBlocks.POLISHED_GRANITE_BRICKS);
+    public static final RegistryObject<Item> POLISHED_GRANITE_BRICK_SLAB = registerItem("polished_granite_brick_slab", NewWallsBlocks.POLISHED_GRANITE_BRICK_SLAB);
+    public static final RegistryObject<Item> POLISHED_GRANITE_BRICK_STAIRS = registerItem("polished_granite_brick_stairs", NewWallsBlocks.POLISHED_GRANITE_BRICK_STAIRS);
+    public static final RegistryObject<Item> POLISHED_GRANITE_BRICK_WALL = registerItem("polished_granite_brick_wall", NewWallsBlocks.POLISHED_GRANITE_BRICK_WALL);
+    public static final RegistryObject<Item> POLISHED_DIORITE_BRICKS = registerItem("polished_diorite_bricks", NewWallsBlocks.POLISHED_DIORITE_BRICKS);
+    public static final RegistryObject<Item> POLISHED_DIORITE_BRICK_SLAB = registerItem("polished_diorite_brick_slab", NewWallsBlocks.POLISHED_DIORITE_BRICK_SLAB);
+    public static final RegistryObject<Item> POLISHED_DIORITE_BRICK_STAIRS = registerItem("polished_diorite_brick_stairs", NewWallsBlocks.POLISHED_DIORITE_BRICK_STAIRS);
+    public static final RegistryObject<Item> POLISHED_DIORITE_BRICK_WALL = registerItem("polished_diorite_brick_wall", NewWallsBlocks.POLISHED_DIORITE_BRICK_WALL);
+    public static final RegistryObject<Item> POLISHED_ANDESITE_BRICKS = registerItem("polished_andesite_bricks", NewWallsBlocks.POLISHED_ANDESITE_BRICKS);
+    public static final RegistryObject<Item> POLISHED_ANDESITE_BRICK_SLAB = registerItem("polished_andesite_brick_slab", NewWallsBlocks.POLISHED_ANDESITE_BRICK_SLAB);
+    public static final RegistryObject<Item> POLISHED_ANDESITE_BRICK_STAIRS = registerItem("polished_andesite_brick_stairs", NewWallsBlocks.POLISHED_ANDESITE_BRICK_STAIRS);
+    public static final RegistryObject<Item> POLISHED_ANDESITE_BRICK_WALL = registerItem("polished_andesite_brick_wall", NewWallsBlocks.POLISHED_ANDESITE_BRICK_WALL);
+    public static final RegistryObject<Item> QUARTZ_WALL = registerItem("quartz_wall", NewWallsBlocks.QUARTZ_WALL);
+    public static final RegistryObject<Item> PURPUR_WALL = registerItem("purpur_wall", NewWallsBlocks.PURPUR_WALL);
+    public static final RegistryObject<Item> PRISMARINE_BRICK_WALL = registerItem("prismarine_brick_wall", NewWallsBlocks.PRISMARINE_BRICK_WALL);
+    public static final RegistryObject<Item> DARK_PRISMARINE_WALL = registerItem("dark_prismarine_wall", NewWallsBlocks.DARK_PRISMARINE_WALL);
+    public static final RegistryObject<Item> SMOOTH_SANDSTONE_WALL = registerItem("smooth_sandstone_wall", NewWallsBlocks.SMOOTH_SANDSTONE_WALL);
+    public static final RegistryObject<Item> SMOOTH_RED_SANDSTONE_WALL = registerItem("smooth_red_sandstone_wall", NewWallsBlocks.SMOOTH_RED_SANDSTONE_WALL);
+    public static final RegistryObject<Item> SMOOTH_QUARTZ_WALL = registerItem("smooth_quartz_wall", NewWallsBlocks.SMOOTH_QUARTZ_WALL);
+    public static final RegistryObject<Item> STONE_WALL = registerItem("stone_wall", NewWallsBlocks.STONE_WALL);
+    public static final RegistryObject<Item> POLISHED_GRANITE_WALL = registerItem("polished_granite_wall", NewWallsBlocks.POLISHED_GRANITE_WALL);
+    public static final RegistryObject<Item> POLISHED_DIORITE_WALL = registerItem("polished_diorite_wall", NewWallsBlocks.POLISHED_DIORITE_WALL);
+    public static final RegistryObject<Item> POLISHED_ANDESITE_WALL = registerItem("polished_andesite_wall", NewWallsBlocks.POLISHED_ANDESITE_WALL);
+    public static final RegistryObject<Item> SMOOTH_STONE_STAIRS = registerItem("smooth_stone_stairs", NewWallsBlocks.SMOOTH_STONE_STAIRS);
+    public static final RegistryObject<Item> SMOOTH_STONE_WALL = registerItem("smooth_stone_wall", NewWallsBlocks.SMOOTH_STONE_WALL);
+    public static final RegistryObject<Item> CUT_SANDSTONE_STAIRS = registerItem("cut_sandstone_stairs", NewWallsBlocks.CUT_SANDSTONE_STAIRS);
+    public static final RegistryObject<Item> CUT_SANDSTONE_WALL = registerItem("cut_sandstone_wall", NewWallsBlocks.CUT_SANDSTONE_WALL);
+    public static final RegistryObject<Item> CUT_RED_SANDSTONE_STAIRS = registerItem("cut_red_sandstone_stairs", NewWallsBlocks.CUT_RED_SANDSTONE_STAIRS);
+    public static final RegistryObject<Item> CUT_RED_SANDSTONE_WALL = registerItem("cut_red_sandstone_wall", NewWallsBlocks.CUT_RED_SANDSTONE_WALL);
+    public static final RegistryObject<Item> CRACKED_STONE_BRICK_SLAB = registerItem("cracked_stone_brick_slab", NewWallsBlocks.CRACKED_STONE_BRICK_SLAB);
+    public static final RegistryObject<Item> CRACKED_STONE_BRICK_STAIRS = registerItem("cracked_stone_brick_stairs", NewWallsBlocks.CRACKED_STONE_BRICK_STAIRS);
+    public static final RegistryObject<Item> CRACKED_STONE_BRICK_WALL = registerItem("cracked_stone_brick_wall", NewWallsBlocks.CRACKED_STONE_BRICK_WALL);
+    public static final RegistryObject<Item> CRACKED_NETHER_BRICK_SLAB = registerItem("cracked_nether_brick_slab", NewWallsBlocks.CRACKED_NETHER_BRICK_SLAB);
+    public static final RegistryObject<Item> CRACKED_NETHER_BRICK_STAIRS = registerItem("cracked_nether_brick_stairs", NewWallsBlocks.CRACKED_NETHER_BRICK_STAIRS);
+    public static final RegistryObject<Item> CRACKED_NETHER_BRICK_WALL = registerItem("cracked_nether_brick_wall", NewWallsBlocks.CRACKED_NETHER_BRICK_WALL);
+    public static final RegistryObject<Item> CRACKED_NETHER_BRICK_FENCE = registerItem("cracked_nether_brick_fence", NewWallsBlocks.CRACKED_NETHER_BRICK_FENCE);
+    public static final RegistryObject<Item> CRACKED_NETHER_BRICK_FENCE_GATE = registerItem("cracked_nether_brick_fence_gate", NewWallsBlocks.CRACKED_NETHER_BRICK_FENCE_GATE);
+    public static final RegistryObject<Item> RED_NETHER_BRICK_FENCE = registerItem("red_nether_brick_fence", NewWallsBlocks.RED_NETHER_BRICK_FENCE);
+    public static final RegistryObject<Item> RED_NETHER_BRICK_FENCE_GATE = registerItem("red_nether_brick_fence_gate", NewWallsBlocks.RED_NETHER_BRICK_FENCE_GATE);
+    public static final RegistryObject<Item> NETHER_BRICK_FENCE_GATE = registerItem("nether_brick_fence_gate", NewWallsBlocks.NETHER_BRICK_FENCE_GATE);
+    public static final RegistryObject<Item> CRACKED_POLISHED_BLACKSTONE_BRICK_SLAB = registerItem("cracked_polished_blackstone_brick_slab", NewWallsBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_SLAB);
+    public static final RegistryObject<Item> CRACKED_POLISHED_BLACKSTONE_BRICK_STAIRS = registerItem("cracked_polished_blackstone_brick_stairs", NewWallsBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_STAIRS);
+    public static final RegistryObject<Item> CRACKED_POLISHED_BLACKSTONE_BRICK_WALL = registerItem("cracked_polished_blackstone_brick_wall", NewWallsBlocks.CRACKED_POLISHED_BLACKSTONE_BRICK_WALL);
+    public static final RegistryObject<Item> QUARTZ_BRICK_SLAB = registerItem("quartz_brick_slab", NewWallsBlocks.QUARTZ_BRICK_SLAB);
+    public static final RegistryObject<Item> QUARTZ_BRICK_STAIRS = registerItem("quartz_brick_stairs", NewWallsBlocks.QUARTZ_BRICK_STAIRS);
+    public static final RegistryObject<Item> QUARTZ_BRICK_WALL = registerItem("quartz_brick_wall", NewWallsBlocks.QUARTZ_BRICK_WALL);
+    public static final RegistryObject<Item> QUARTZ_BRICK_FENCE = registerItem("quartz_brick_fence", NewWallsBlocks.QUARTZ_BRICK_FENCE);
+    public static final RegistryObject<Item> QUARTZ_BRICK_FENCE_GATE = registerItem("quartz_brick_fence_gate", NewWallsBlocks.QUARTZ_BRICK_FENCE_GATE);
+    public static final RegistryObject<Item> CRACKED_DEEPSLATE_BRICK_SLAB = registerItem("cracked_deepslate_brick_slab", NewWallsBlocks.CRACKED_DEEPSLATE_BRICK_SLAB);
+    public static final RegistryObject<Item> CRACKED_DEEPSLATE_BRICK_STAIRS = registerItem("cracked_deepslate_brick_stairs", NewWallsBlocks.CRACKED_DEEPSLATE_BRICK_STAIRS);
+    public static final RegistryObject<Item> CRACKED_DEEPSLATE_BRICK_WALL = registerItem("cracked_deepslate_brick_wall", NewWallsBlocks.CRACKED_DEEPSLATE_BRICK_WALL);
+    public static final RegistryObject<Item> CRACKED_DEEPSLATE_TILE_SLAB = registerItem("cracked_deepslate_tile_slab", NewWallsBlocks.CRACKED_DEEPSLATE_TILE_SLAB);
+    public static final RegistryObject<Item> CRACKED_DEEPSLATE_TILE_STAIRS = registerItem("cracked_deepslate_tile_stairs", NewWallsBlocks.CRACKED_DEEPSLATE_TILE_STAIRS);
+    public static final RegistryObject<Item> CRACKED_DEEPSLATE_TILE_WALL = registerItem("cracked_deepslate_tile_wall", NewWallsBlocks.CRACKED_DEEPSLATE_TILE_WALL);
+    public static final RegistryObject<Item> TUFF_SLAB = registerItem("tuff_slab", NewWallsBlocks.TUFF_SLAB);
+    public static final RegistryObject<Item> TUFF_STAIRS = registerItem("tuff_stairs", NewWallsBlocks.TUFF_STAIRS);
+    public static final RegistryObject<Item> TUFF_WALL = registerItem("tuff_wall", NewWallsBlocks.TUFF_WALL);
+    public static final RegistryObject<Item> CALCITE_SLAB = registerItem("calcite_slab", NewWallsBlocks.CALCITE_SLAB);
+    public static final RegistryObject<Item> CALCITE_STAIRS = registerItem("calcite_stairs", NewWallsBlocks.CALCITE_STAIRS);
+    public static final RegistryObject<Item> CALCITE_WALL = registerItem("calcite_wall", NewWallsBlocks.CALCITE_WALL);
+    public static final RegistryObject<Item> SMOOTH_BASALT_SLAB = registerItem("smooth_basalt_slab", NewWallsBlocks.SMOOTH_BASALT_SLAB);
+    public static final RegistryObject<Item> SMOOTH_BASALT_STAIRS = registerItem("smooth_basalt_stairs", NewWallsBlocks.SMOOTH_BASALT_STAIRS);
+    public static final RegistryObject<Item> SMOOTH_BASALT_WALL = registerItem("smooth_basalt_wall", NewWallsBlocks.SMOOTH_BASALT_WALL);
+    public static final RegistryObject<Item> END_STONE_SLAB = registerItem("end_stone_slab", NewWallsBlocks.END_STONE_SLAB);
+    public static final RegistryObject<Item> END_STONE_STAIRS = registerItem("end_stone_stairs", NewWallsBlocks.END_STONE_STAIRS);
+    public static final RegistryObject<Item> END_STONE_WALL = registerItem("end_stone_wall", NewWallsBlocks.END_STONE_WALL);
+    public static final RegistryObject<Item> DRIPSTONE_SLAB = registerItem("dripstone_slab", NewWallsBlocks.DRIPSTONE_SLAB);
+    public static final RegistryObject<Item> DRIPSTONE_STAIRS = registerItem("dripstone_stairs", NewWallsBlocks.DRIPSTONE_STAIRS);
+    public static final RegistryObject<Item> DRIPSTONE_WALL = registerItem("dripstone_wall", NewWallsBlocks.DRIPSTONE_WALL);
+
+    private static RegistryObject<Item> registerItem(String id, Supplier<Block> base) {
+        return ITEMS.register(id, () -> new BlockItem(base.get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(NewWalls.MODID, id))).useBlockDescriptionPrefix()));
+    }
+}
